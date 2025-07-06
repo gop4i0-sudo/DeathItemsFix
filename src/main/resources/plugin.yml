@@ -1,0 +1,6 @@
+name: DeathItemsFix
+version: '1.0'
+main: org.gop4i0.DeathItemsFix
+api-version: '1.21'
+author: gop4i0
+description: фиксит разлетание предметов при смерти
