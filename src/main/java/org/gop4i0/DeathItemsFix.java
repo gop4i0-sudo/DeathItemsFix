@@ -20,12 +20,12 @@ public final class DeathItemsFix extends JavaPlugin implements Listener {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
 
-        getLogger().info("DeathItemsFix on!");
+        getLogger().info("DeathItemsFix on");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("DeathItemsFix off!");
+        getLogger().info("DeathItemsFix off");
     }
 
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
